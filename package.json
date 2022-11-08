@@ -2,15 +2,20 @@
   "name": "GoogleSignIn",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "license": "MIT",
   "dependencies": {
-    "connect-mongo": "^4.6.0",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20",
     "passport": "^0.6.0",
-    "passport-google-oauth20": "^2.0.0"
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7"
   }
 }
